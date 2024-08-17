@@ -4,6 +4,6 @@
 //-----------------------------------------------------------------------------
 
 exports.helloWorld = (req, res) => {
-  const message="<font color='blue'>СloudFunction of Michael Kravtsiv!</font><br><b>App Version 1.2</b>";
+  const message="<font color='blue'>СloudFunction of Michael Kravtsiv!</font><br><b>App Version 1.2-stage</b>";
   res.status(200).send(message);
 };
