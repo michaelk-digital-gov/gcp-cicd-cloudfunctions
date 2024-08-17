@@ -26,9 +26,12 @@ options:
   - --entry-point=$_ENTRY_POINT
   id: DEPLOY
 
+options:
+  logging: CLOUD_LOGGING_ONLY
+  
 substitutions:
-    _FUNCTION_PROJECT : michael-CF-stage
-    _FUNCTION_NAME    : my-nodejs-app
+    _FUNCTION_PROJECT : michael-cloud-function-stage
+    _FUNCTION_NAME    : my-nodejs-app-1
     _FUNCTION_REGION  : us-central1
     _FUNCTION_RUNTIME : nodejs20
     _ENTRY_POINT      : helloWorld
