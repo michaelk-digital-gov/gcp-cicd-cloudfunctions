@@ -33,4 +33,3 @@ substitutions:
     _FUNCTION_REGION  : us-central1
     _FUNCTION_RUNTIME : nodejs20
     _ENTRY_POINT      : helloWorld
-
