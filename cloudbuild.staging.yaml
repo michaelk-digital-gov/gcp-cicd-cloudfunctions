@@ -5,6 +5,8 @@ steps:
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   args: ['echo', 'Building...']
   id: BUILD
+options:
+  logging: NONE
   
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   args: ['echo', 'Testing...']
