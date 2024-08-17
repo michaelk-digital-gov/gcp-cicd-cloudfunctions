@@ -28,8 +28,8 @@ options:
   logging: CLOUD_LOGGING_ONLY
   
 substitutions:
-    _FUNCTION_PROJECT : michael-CF-prod
-    _FUNCTION_NAME    : my-nodejs-app
+    _FUNCTION_PROJECT : michael-cloud-function-prod
+    _FUNCTION_NAME    : my-nodejs-app-1
     _FUNCTION_REGION  : us-central1
     _FUNCTION_RUNTIME : nodejs20
     _ENTRY_POINT      : helloWorld
